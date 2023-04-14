@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+nav{
+    background-color: rgb(143, 202, 55);
+}
+
+.navbar-collapse{
+    justify-content:space-around;
+}
+ .front_img img{
+    width: 80em;
+    height: 100em;
+
+}
+
+.Second_page {
+    background-image: url('sec.png');
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    width: auto;
+    height: 50em;
+    
+
+    /* z-index: 0; */
+
+}
+
+.right-side{
+    float:right;
+}
+.second_page_down{
+    /* margin: em; */
+}
+
+.third_page img {
+
+    /* background-image: url('2.png'); */
+    background-repeat: no-repeat;
+    width: auto; 
+     height: 110em; 
+}
+
+.third_page_content{
+    position: absolute;
+    width: 30em;
+    height: 100em;
+
+    text-align: justify;
+
+align-items: center;
+
+left: 40em;
+margin-top: 50em;
+
+
+    
+}
+
+
+.fourth_page{
+    background-image: url('sec.png'); 
+    /* background-repeat: no-repeat; */
+    width:60em;
+    height: 40em;
+    position: relative;
+    /* margin-left: 10em; */
+    /* float: right; */
+    
+}
+
+
+.fourth_content{
+     margin-left: 10em; 
+     text-align: justify;
+
+
+
+}
+.last_page{
+    background-image: url('last.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 110em;
+    
+}
+
+.last_page_content{
+    width: 60em;
+    float: right;
+    margin-top: 5em;
+
+}
+
+
+
+
+@media (0px <= width <= 768px) {
+    
+    .third_page img {
+
+        /* background-image: url('2.png'); */
+        /* background-repeat: no-repeat;
+        width: auto;  */
+         height: 2em; 
+         width: auto;
+    }
+    
+    .third_page_content{
+        position: relative;
+        width: 30em;
+        height: 30em;
+    
+        text-align: justify;
+    
+    align-items: center;
+    
+    /* /* left: 40em; */
+    /* margin-top: 30em;  */
+    
+    
+        
+    }
+
+   
+    .third_page_content{
+        /* position: absolute; */
+        width: auto;
+    
+    left: 0em;
+    margin-top: 3em;
+ 
+        
+    }
+
+    .fourth_content {
+        margin-left: 0em;
+        text-align: justify;
+    }
+
+
+   
+    .last_page_content{
+        position: relative;
+        width: 33em;
+        /* float: right; */
+        text-align: justify;
+        margin-top: 15em;
+    
+    }
+
+    .last_page{
+        /* background-image: url('last.png');
+        background-repeat: no-repeat; */
+        /* width: auto; */
+        height: 40em;
+        
+    }
+
+}
